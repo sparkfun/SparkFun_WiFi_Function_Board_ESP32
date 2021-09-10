@@ -16079,6 +16079,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="4.7KOHM" prefix="R">
+<description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07857"/>
+<attribute name="VALUE" value="4.7k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-15343" constant="no"/>
+<attribute name="VALUE" value="4.7k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-DiscreteSemi">
@@ -20681,6 +20714,64 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.6985" y="-0.127"/>
 </polygon>
 </package>
+<package name="SMT-JUMPER_3_2-NC_TRACE_NO-SILK" urn="urn:adsk.eagle:footprint:39269/1" locally_modified="yes">
+<smd name="1" x="-1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="0.3175" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="0.3175" y="-0.127"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.6985" y="0.127"/>
+<vertex x="-0.3175" y="0.127"/>
+<vertex x="-0.3175" y="-0.127"/>
+<vertex x="-0.6985" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.70485" y="0.127"/>
+<vertex x="0.70485" y="0.127"/>
+<vertex x="0.70485" y="-0.127"/>
+<vertex x="-0.70485" y="-0.127"/>
+</polygon>
+</package>
+<package name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39270/1" locally_modified="yes">
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.2032" layer="21"/>
+<smd name="1" x="-1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="0.3175" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="0.3175" y="-0.127"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.6985" y="0.127"/>
+<vertex x="-0.3175" y="0.127"/>
+<vertex x="-0.3175" y="-0.127"/>
+<vertex x="-0.6985" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.70485" y="0.127"/>
+<vertex x="0.70485" y="0.127"/>
+<vertex x="0.70485" y="-0.127"/>
+<vertex x="-0.70485" y="-0.127"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39286/1" type="box">
@@ -20691,6 +20782,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_3_2-NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39290/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_2-NC_TRACE_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39289/1" locally_modified="yes" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_2-NC_TRACE_SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -20706,6 +20807,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SMT-JUMPER_3_2-NC_TRACE">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0" y2="2.032" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="2.032" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.032" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.381" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -20741,6 +20860,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:39281/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-SMT_3_2-NC_TRACE" prefix="JP">
+<description>&lt;h3&gt;Normally closed trace jumper (2 of 2 connections)&lt;/h3&gt;
+&lt;p&gt;This jumper has a trace between all three pads so they are normally closed (NC). Use a razor knife to open the connection(s). For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
+&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
+&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reapply solder to reclose the connection(s).&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_3_2-NC_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_3_2-NC_TRACE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39290/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_3_2-NC_TRACE_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39289/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -22337,6 +22497,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-RF" deviceset="ESP-WROOM-32" device="32D-NARROW"/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R8" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -22361,13 +22525,20 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <wire x1="134.62" y1="279.4" x2="134.62" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="0" y1="177.8" x2="297.18" y2="177.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="297.18" y1="177.8" x2="431.8" y2="177.8" width="0.2032" layer="97" style="longdash"/>
-<wire x1="297.18" y1="279.4" x2="297.18" y2="177.8" width="0.2032" layer="97" style="longdash"/>
+<wire x1="297.18" y1="279.4" x2="297.18" y2="228.6" width="0.2032" layer="97" style="longdash"/>
 <text x="66.04" y="271.78" size="2.54" layer="94" font="vector" align="center">Power: AP2112</text>
 <text x="213.36" y="167.64" size="2.54" layer="94" font="vector" align="center">ESP32 WROOM</text>
 <text x="66.04" y="167.64" size="2.54" layer="94" font="vector" align="center">M.2 Connector Edge</text>
 <text x="363.22" y="271.78" size="2.54" layer="94" font="vector" align="center">GPIO0 Button</text>
+<wire x1="297.18" y1="228.6" x2="297.18" y2="177.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="297.18" y1="177.8" x2="297.18" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="350.52" y="165.1" size="2.54" layer="94" font="vector">USB-C: Firmware Upload</text>
+<text x="350.52" y="165.1" size="2.54" layer="94" font="vector" align="center">USB-C: Firmware Upload</text>
+<text x="360.68" y="220.98" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
+<wire x1="297.18" y1="228.6" x2="297.18" y2="226.06" width="0.1524" layer="97" style="longdash"/>
+<wire x1="297.18" y1="226.06" x2="431.8" y2="226.06" width="0.1524" layer="97" style="longdash"/>
+<text x="330.962" y="203.454" size="1.778" layer="97" font="vector" align="center">Cut respective jumper to
+remove I2C data line and/or
+clock from pullup resistors.</text>
 </plain>
 <instances>
 <instance part="FD1" gate="G$1" x="401.32" y="30.48" smashed="yes"/>
@@ -22450,14 +22621,14 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <instance part="GND8" gate="1" x="190.5" y="45.466" smashed="yes">
 <attribute name="VALUE" x="187.96" y="42.926" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="S1" gate="G$1" x="358.14" y="223.52" smashed="yes">
-<attribute name="NAME" x="358.14" y="225.044" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<instance part="S1" gate="G$1" x="358.14" y="241.3" smashed="yes">
+<attribute name="NAME" x="358.14" y="242.824" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND2" gate="1" x="350.52" y="218.44" smashed="yes">
-<attribute name="VALUE" x="347.98" y="215.9" size="1.778" layer="96" font="vector"/>
+<instance part="GND2" gate="1" x="350.52" y="236.22" smashed="yes">
+<attribute name="VALUE" x="347.98" y="233.68" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP2" gate="G$1" x="368.3" y="218.44" smashed="yes">
-<attribute name="NAME" x="372.11" y="217.424" size="1.778" layer="95" font="vector"/>
+<instance part="TP2" gate="G$1" x="368.3" y="236.22" smashed="yes">
+<attribute name="NAME" x="372.11" y="235.204" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND26" gate="1" x="355.6" y="77.978" smashed="yes">
 <attribute name="VALUE" x="353.06" y="75.438" size="1.778" layer="96" font="vector"/>
@@ -22490,11 +22661,11 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </instance>
 <instance part="LOGO2" gate="G$1" x="335.28" y="40.64" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="411.48" y="55.88" smashed="yes"/>
-<instance part="S2" gate="G$1" x="358.14" y="236.22" smashed="yes">
-<attribute name="NAME" x="358.14" y="237.744" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<instance part="S2" gate="G$1" x="358.14" y="254" smashed="yes">
+<attribute name="NAME" x="358.14" y="255.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND5" gate="1" x="350.52" y="231.14" smashed="yes">
-<attribute name="VALUE" x="347.98" y="228.6" size="1.778" layer="96" font="vector"/>
+<instance part="GND5" gate="1" x="350.52" y="248.92" smashed="yes">
+<attribute name="VALUE" x="347.98" y="246.38" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="190.5" y="109.22" smashed="yes">
 <attribute name="NAME" x="187.706" y="111.633" size="1.778" layer="95" font="vector"/>
@@ -22529,18 +22700,32 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <attribute name="VALUE" x="274.32" y="59.182" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U1" gate="G$1" x="40.64" y="76.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.274" y="84.328" size="1.778" layer="95"/>
-<attribute name="VALUE" x="33.02" y="68.58" size="1.778" layer="96"/>
+<attribute name="NAME" x="33.274" y="84.328" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="33.02" y="68.58" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="27.94" y="83.82" smashed="yes">
-<attribute name="VALUE" x="27.94" y="86.614" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="27.94" y="86.614" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND15" gate="1" x="27.94" y="68.58" smashed="yes">
-<attribute name="VALUE" x="27.94" y="68.326" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="27.94" y="68.326" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="U2" gate="U1" x="213.36" y="83.82" smashed="yes">
-<attribute name="NAME" x="195.58" y="122.174" size="1.778" layer="95"/>
-<attribute name="VALUE" x="195.58" y="48.006" size="1.778" layer="96" align="top-left"/>
+<attribute name="NAME" x="195.58" y="122.174" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="195.58" y="48.006" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="JP2" gate="G$1" x="360.68" y="203.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="358.648" y="198.755" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="360.68" y="210.566" smashed="yes">
+<attribute name="VALUE" x="360.68" y="213.36" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="R8" gate="G$1" x="353.06" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="351.536" y="195.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="354.584" y="195.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R9" gate="G$1" x="368.3" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="366.776" y="195.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="369.824" y="195.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -22563,9 +22748,9 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="U2" gate="U1" pin="EN"/>
 </segment>
 <segment>
-<wire x1="363.22" y1="236.22" x2="365.252" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="254" x2="365.252" y2="254" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="2"/>
-<label x="365.252" y="236.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="365.252" y="254" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -22632,12 +22817,12 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="363.22" y1="223.52" x2="365.76" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="223.52" x2="365.76" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="218.44" x2="368.3" y2="218.44" width="0.1524" layer="91"/>
-<junction x="365.76" y="223.52"/>
-<wire x1="365.76" y1="223.52" x2="368.3" y2="223.52" width="0.1524" layer="91"/>
-<label x="368.3" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="363.22" y1="241.3" x2="365.76" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="241.3" x2="365.76" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="236.22" x2="368.3" y2="236.22" width="0.1524" layer="91"/>
+<junction x="365.76" y="241.3"/>
+<wire x1="365.76" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
+<label x="368.3" y="241.3" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="S1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -22718,6 +22903,11 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 <wire x1="27.94" y1="81.28" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+<wire x1="360.68" y1="210.566" x2="360.68" y2="208.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -22754,8 +22944,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="353.06" y1="223.52" x2="350.52" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="223.52" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="241.3" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="241.3" x2="350.52" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -22785,8 +22975,8 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="353.06" y1="236.22" x2="350.52" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="236.22" x2="350.52" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="254" x2="350.52" y2="254" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="254" x2="350.52" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -22951,24 +23141,36 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="25.4" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="25.4" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="I2C_SCL"/>
 <wire x1="91.44" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 <label x="93.98" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="353.06" y1="190.5" x2="353.06" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="185.42" x2="370.84" y2="185.42" width="0.1524" layer="91"/>
+<label x="370.84" y="185.42" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA"/>
 <wire x1="30.48" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="25.4" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="25.4" y="73.66" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J1" pin="I2C_SDA"/>
 <wire x1="91.44" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
 <label x="93.98" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="368.3" y1="190.5" x2="368.3" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="187.96" x2="370.84" y2="187.96" width="0.1524" layer="91"/>
+<label x="370.84" y="187.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -22990,6 +23192,22 @@ If RTS is HIGH, toggling DTR from LOW to HIGH resets to bootloader.</text>
 <pinref part="J1" gate="J1" pin="EEPROM_A0"/>
 <pinref part="U1" gate="G$1" pin="A0"/>
 <wire x1="55.88" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="368.3" y1="200.66" x2="368.3" y2="203.2" width="0.1524" layer="91" style="longdash"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="368.3" y1="203.2" x2="365.76" y2="203.2" width="0.1524" layer="91" style="longdash"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="355.6" y1="203.2" x2="353.06" y2="203.2" width="0.1524" layer="91" style="longdash"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="353.06" y1="203.2" x2="353.06" y2="200.66" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 </nets>
