@@ -1,7 +1,7 @@
 SparkFun WiFi Function Board - ESP32
 ========================================
 
-[![SparkFun WiFi Function Board - ESP32](URL for picture of part)](https://www.sparkfun.com/products/18430)
+[![SparkFun WiFi Function Board - ESP32](https://cdn.sparkfun.com/assets/parts/1/7/8/5/7/18430-SparkFun_MicroMod_ESP32_Function_Board-01.jpg)](https://www.sparkfun.com/products/18430)
 
 [*SparkFun WiFi Function Board - ESP32 (WRL-18430)*](https://www.sparkfun.com/products/18430)
 
