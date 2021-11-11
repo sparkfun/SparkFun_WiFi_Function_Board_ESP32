@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4164,8 +4164,221 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-MicroMod-Function">
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="LED-0603">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-MicroMod">
+<packages>
+<package name="MICROMOD_MI_LOGO_1">
+<polygon width="0.1" layer="21">
+<vertex x="-2.717315625" y="0.2373125"/>
+<vertex x="-2.71625625" y="-2.14403125"/>
+<vertex x="-2.700765625" y="-2.194278125"/>
+<vertex x="-2.668190625" y="-2.235584375"/>
+<vertex x="-2.623025" y="-2.262509375"/>
+<vertex x="-2.571171875" y="-2.271446875"/>
+<vertex x="-2.041975" y="-2.271446875"/>
+<vertex x="-1.98938125" y="-2.267296875"/>
+<vertex x="-1.9414125" y="-2.245740625"/>
+<vertex x="-1.904340625" y="-2.20838125"/>
+<vertex x="-1.88325" y="-2.160175"/>
+<vertex x="-1.87934375" y="-2.107559375"/>
+<vertex x="-1.879578125" y="-0.51996875"/>
+<vertex x="-1.882009375" y="-0.09661875"/>
+<vertex x="-1.886803125" y="0.220859375"/>
+<vertex x="-1.923521875" y="0.237359375"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="2.636184375" y="0.2373125"/>
+<vertex x="0.89511875" y="0.2373125"/>
+<vertex x="0.883084375" y="0.196140625"/>
+<vertex x="0.8806375" y="-0.12040625"/>
+<vertex x="0.8793625" y="-2.125265625"/>
+<vertex x="0.88825" y="-2.1769625"/>
+<vertex x="0.9149375" y="-2.2221"/>
+<vertex x="0.956028125" y="-2.254690625"/>
+<vertex x="1.00609375" y="-2.270290625"/>
+<vertex x="1.058803125" y="-2.27148125"/>
+<vertex x="1.5864" y="-2.27148125"/>
+<vertex x="1.63900625" y="-2.2689125"/>
+<vertex x="1.68786875" y="-2.2499375"/>
+<vertex x="1.72674375" y="-2.214759375"/>
+<vertex x="1.7505375" y="-2.168015625"/>
+<vertex x="1.75645625" y="-2.11581875"/>
+<vertex x="1.758196875" y="-2.06318125"/>
+<vertex x="1.784284375" y="-2.01826875"/>
+<vertex x="1.8310875" y="-1.995909375"/>
+<vertex x="2.464140625" y="-1.994175"/>
+<vertex x="2.5152125" y="-1.9816375"/>
+<vertex x="2.56081875" y="-1.9555"/>
+<vertex x="2.59745625" y="-1.91783125"/>
+<vertex x="2.622421875" y="-1.871584375"/>
+<vertex x="2.633521875" y="-1.82023125"/>
+<vertex x="2.6342875" y="0.184609375"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="-0.1607625" y="0.2373125"/>
+<vertex x="0.5264" y="0.2373125"/>
+<vertex x="0.555134375" y="0.26869375"/>
+<vertex x="0.63535625" y="0.57553125"/>
+<vertex x="0.73865625" y="0.9855875"/>
+<vertex x="0.800340625" y="1.24258125"/>
+<vertex x="0.870471875" y="1.551878125"/>
+<vertex x="0.904378125" y="1.575484375"/>
+<vertex x="0.907853125" y="1.527859375"/>
+<vertex x="0.8996625" y="1.26369375"/>
+<vertex x="0.8913125" y="0.893775"/>
+<vertex x="0.882121875" y="0.25954375"/>
+<vertex x="0.912634375" y="0.237309375"/>
+<vertex x="2.6041125" y="0.237309375"/>
+<vertex x="2.6346625" y="0.259615625"/>
+<vertex x="2.6346625" y="0.8410625"/>
+<vertex x="2.633728125" y="0.893896875"/>
+<vertex x="2.62166875" y="0.945153125"/>
+<vertex x="2.59588125" y="0.99106875"/>
+<vertex x="2.558465625" y="1.02809375"/>
+<vertex x="2.512284375" y="1.053359375"/>
+<vertex x="2.460903125" y="1.064884375"/>
+<vertex x="1.87948125" y="1.065709375"/>
+<vertex x="1.8266875" y="1.0670125"/>
+<vertex x="1.781153125" y="1.092234375"/>
+<vertex x="1.757834375" y="1.138703125"/>
+<vertex x="1.757225" y="1.24436875"/>
+<vertex x="1.777690625" y="1.292140625"/>
+<vertex x="1.82181875" y="1.31971875"/>
+<vertex x="1.874459375" y="1.32223125"/>
+<vertex x="2.455890625" y="1.322784375"/>
+<vertex x="2.507553125" y="1.332890625"/>
+<vertex x="2.554446875" y="1.356834375"/>
+<vertex x="2.592928125" y="1.39279375"/>
+<vertex x="2.620009375" y="1.43800625"/>
+<vertex x="2.63330625" y="1.488978125"/>
+<vertex x="2.634778125" y="1.541775"/>
+<vertex x="2.634778125" y="1.7532125"/>
+<vertex x="2.631025" y="1.805840625"/>
+<vertex x="2.613315625" y="1.855446875"/>
+<vertex x="2.58265625" y="1.8982625"/>
+<vertex x="2.5414125" y="1.93099375"/>
+<vertex x="2.492790625" y="1.951171875"/>
+<vertex x="2.44045625" y="1.957309375"/>
+<vertex x="1.8590125" y="1.9575125"/>
+<vertex x="1.807221875" y="1.964871875"/>
+<vertex x="1.768278125" y="1.999390625"/>
+<vertex x="1.756178125" y="2.0500125"/>
+<vertex x="1.75023125" y="2.102309375"/>
+<vertex x="1.72634375" y="2.1490875"/>
+<vertex x="1.687371875" y="2.184303125"/>
+<vertex x="1.63835625" y="2.203196875"/>
+<vertex x="1.58563125" y="2.205440625"/>
+<vertex x="0.581315625" y="2.205440625"/>
+<vertex x="0.52850625" y="2.20420625"/>
+<vertex x="0.478903125" y="2.186971875"/>
+<vertex x="0.43891875" y="2.152896875"/>
+<vertex x="0.413846875" y="2.106734375"/>
+<vertex x="0.223559375" y="1.501646875"/>
+<vertex x="0.083021875" y="1.04715"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="-0.8082125" y="0.2373125"/>
+<vertex x="-1.547325" y="0.2373125"/>
+<vertex x="-1.594415625" y="0.23281875"/>
+<vertex x="-1.432275" y="-0.43406875"/>
+<vertex x="-1.291671875" y="-0.997521875"/>
+<vertex x="-1.108128125" y="-1.713478125"/>
+<vertex x="-0.986490625" y="-2.172775"/>
+<vertex x="-0.96133125" y="-2.21880625"/>
+<vertex x="-0.921178125" y="-2.252609375"/>
+<vertex x="-0.87165625" y="-2.270034375"/>
+<vertex x="-0.818928125" y="-2.271390625"/>
+<vertex x="-0.290990625" y="-2.271390625"/>
+<vertex x="-0.238734375" y="-2.266053125"/>
+<vertex x="-0.191678125" y="-2.242840625"/>
+<vertex x="-0.15616875" y="-2.204203125"/>
+<vertex x="-0.13626875" y="-2.155528125"/>
+<vertex x="0.015725" y="-1.649946875"/>
+<vertex x="0.222196875" y="-0.940265625"/>
+<vertex x="0.3792" y="-0.381165625"/>
+<vertex x="0.544925" y="0.23029375"/>
+<vertex x="0.501228125" y="0.237284375"/>
+<vertex x="-0.13229375" y="0.237284375"/>
+<vertex x="-0.1675875" y="0.2139375"/>
+<vertex x="-0.26938125" y="-0.14131875"/>
+<vertex x="-0.3666125" y="-0.49785"/>
+<vertex x="-0.443334375" y="-0.80516875"/>
+<vertex x="-0.477790625" y="-0.959753125"/>
+<vertex x="-0.4972875" y="-1.063521875"/>
+<vertex x="-0.510859375" y="-1.048340625"/>
+<vertex x="-0.5630875" y="-0.7896"/>
+<vertex x="-0.643878125" y="-0.4289875"/>
+<vertex x="-0.74240625" y="-0.018296875"/>
+<vertex x="-0.780403125" y="0.1354625"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="-2.57308125" y="2.2065125"/>
+<vertex x="-2.62478125" y="2.1971125"/>
+<vertex x="-2.669490625" y="2.16956875"/>
+<vertex x="-2.70151875" y="2.127921875"/>
+<vertex x="-2.716415625" y="2.077546875"/>
+<vertex x="-2.71725625" y="0.279915625"/>
+<vertex x="-2.706878125" y="0.237421875"/>
+<vertex x="-1.91379375" y="0.237421875"/>
+<vertex x="-1.8877125" y="0.2638"/>
+<vertex x="-1.8969875" y="0.686675"/>
+<vertex x="-1.906834375" y="1.003753125"/>
+<vertex x="-1.923134375" y="1.373496875"/>
+<vertex x="-1.93643125" y="1.584565625"/>
+<vertex x="-1.897465625" y="1.57491875"/>
+<vertex x="-1.854253125" y="1.367890625"/>
+<vertex x="-1.77459375" y="1.0064625"/>
+<vertex x="-1.606715625" y="0.28554375"/>
+<vertex x="-1.591865625" y="0.237375"/>
+<vertex x="-0.85165625" y="0.237375"/>
+<vertex x="-0.81018125" y="0.246253125"/>
+<vertex x="-0.902184375" y="0.6047375"/>
+<vertex x="-1.010809375" y="1.01353125"/>
+<vertex x="-1.080365625" y="1.268575"/>
+<vertex x="-1.195078125" y="1.6757"/>
+<vertex x="-1.3144875" y="2.081471875"/>
+<vertex x="-1.332384375" y="2.131084375"/>
+<vertex x="-1.365171875" y="2.17215625"/>
+<vertex x="-1.410778125" y="2.19831875"/>
+<vertex x="-1.462765625" y="2.205984375"/>
+</polygon>
+</package>
 <package name="M.2-CARD-E-22_FUNCTION_STANDARD">
 <wire x1="9.925" y1="0" x2="3.225" y2="0" width="0.0508" layer="51"/>
 <wire x1="2.025" y1="0" x2="-9.925" y2="0" width="0.0508" layer="51"/>
@@ -4386,223 +4599,6 @@ Out</text>
 <vertex x="19" y="42.25"/>
 <vertex x="19" y="41.25" curve="-90"/>
 <vertex x="16.25" y="44" curve="-90"/>
-</polygon>
-</package>
-</packages>
-</library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-0603">
-<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
-0603, surface mount.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
-&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
-<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
-<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-MicroMod">
-<packages>
-<package name="MICROMOD_MI_LOGO_1">
-<polygon width="0.1" layer="21">
-<vertex x="-2.717315625" y="0.2373125"/>
-<vertex x="-2.71625625" y="-2.14403125"/>
-<vertex x="-2.700765625" y="-2.194278125"/>
-<vertex x="-2.668190625" y="-2.235584375"/>
-<vertex x="-2.623025" y="-2.262509375"/>
-<vertex x="-2.571171875" y="-2.271446875"/>
-<vertex x="-2.041975" y="-2.271446875"/>
-<vertex x="-1.98938125" y="-2.267296875"/>
-<vertex x="-1.9414125" y="-2.245740625"/>
-<vertex x="-1.904340625" y="-2.20838125"/>
-<vertex x="-1.88325" y="-2.160175"/>
-<vertex x="-1.87934375" y="-2.107559375"/>
-<vertex x="-1.879578125" y="-0.51996875"/>
-<vertex x="-1.882009375" y="-0.09661875"/>
-<vertex x="-1.886803125" y="0.220859375"/>
-<vertex x="-1.923521875" y="0.237359375"/>
-</polygon>
-<polygon width="0.1" layer="21">
-<vertex x="2.636184375" y="0.2373125"/>
-<vertex x="0.89511875" y="0.2373125"/>
-<vertex x="0.883084375" y="0.196140625"/>
-<vertex x="0.8806375" y="-0.12040625"/>
-<vertex x="0.8793625" y="-2.125265625"/>
-<vertex x="0.88825" y="-2.1769625"/>
-<vertex x="0.9149375" y="-2.2221"/>
-<vertex x="0.956028125" y="-2.254690625"/>
-<vertex x="1.00609375" y="-2.270290625"/>
-<vertex x="1.058803125" y="-2.27148125"/>
-<vertex x="1.5864" y="-2.27148125"/>
-<vertex x="1.63900625" y="-2.2689125"/>
-<vertex x="1.68786875" y="-2.2499375"/>
-<vertex x="1.72674375" y="-2.214759375"/>
-<vertex x="1.7505375" y="-2.168015625"/>
-<vertex x="1.75645625" y="-2.11581875"/>
-<vertex x="1.758196875" y="-2.06318125"/>
-<vertex x="1.784284375" y="-2.01826875"/>
-<vertex x="1.8310875" y="-1.995909375"/>
-<vertex x="2.464140625" y="-1.994175"/>
-<vertex x="2.5152125" y="-1.9816375"/>
-<vertex x="2.56081875" y="-1.9555"/>
-<vertex x="2.59745625" y="-1.91783125"/>
-<vertex x="2.622421875" y="-1.871584375"/>
-<vertex x="2.633521875" y="-1.82023125"/>
-<vertex x="2.6342875" y="0.184609375"/>
-</polygon>
-<polygon width="0.1" layer="21">
-<vertex x="-0.1607625" y="0.2373125"/>
-<vertex x="0.5264" y="0.2373125"/>
-<vertex x="0.555134375" y="0.26869375"/>
-<vertex x="0.63535625" y="0.57553125"/>
-<vertex x="0.73865625" y="0.9855875"/>
-<vertex x="0.800340625" y="1.24258125"/>
-<vertex x="0.870471875" y="1.551878125"/>
-<vertex x="0.904378125" y="1.575484375"/>
-<vertex x="0.907853125" y="1.527859375"/>
-<vertex x="0.8996625" y="1.26369375"/>
-<vertex x="0.8913125" y="0.893775"/>
-<vertex x="0.882121875" y="0.25954375"/>
-<vertex x="0.912634375" y="0.237309375"/>
-<vertex x="2.6041125" y="0.237309375"/>
-<vertex x="2.6346625" y="0.259615625"/>
-<vertex x="2.6346625" y="0.8410625"/>
-<vertex x="2.633728125" y="0.893896875"/>
-<vertex x="2.62166875" y="0.945153125"/>
-<vertex x="2.59588125" y="0.99106875"/>
-<vertex x="2.558465625" y="1.02809375"/>
-<vertex x="2.512284375" y="1.053359375"/>
-<vertex x="2.460903125" y="1.064884375"/>
-<vertex x="1.87948125" y="1.065709375"/>
-<vertex x="1.8266875" y="1.0670125"/>
-<vertex x="1.781153125" y="1.092234375"/>
-<vertex x="1.757834375" y="1.138703125"/>
-<vertex x="1.757225" y="1.24436875"/>
-<vertex x="1.777690625" y="1.292140625"/>
-<vertex x="1.82181875" y="1.31971875"/>
-<vertex x="1.874459375" y="1.32223125"/>
-<vertex x="2.455890625" y="1.322784375"/>
-<vertex x="2.507553125" y="1.332890625"/>
-<vertex x="2.554446875" y="1.356834375"/>
-<vertex x="2.592928125" y="1.39279375"/>
-<vertex x="2.620009375" y="1.43800625"/>
-<vertex x="2.63330625" y="1.488978125"/>
-<vertex x="2.634778125" y="1.541775"/>
-<vertex x="2.634778125" y="1.7532125"/>
-<vertex x="2.631025" y="1.805840625"/>
-<vertex x="2.613315625" y="1.855446875"/>
-<vertex x="2.58265625" y="1.8982625"/>
-<vertex x="2.5414125" y="1.93099375"/>
-<vertex x="2.492790625" y="1.951171875"/>
-<vertex x="2.44045625" y="1.957309375"/>
-<vertex x="1.8590125" y="1.9575125"/>
-<vertex x="1.807221875" y="1.964871875"/>
-<vertex x="1.768278125" y="1.999390625"/>
-<vertex x="1.756178125" y="2.0500125"/>
-<vertex x="1.75023125" y="2.102309375"/>
-<vertex x="1.72634375" y="2.1490875"/>
-<vertex x="1.687371875" y="2.184303125"/>
-<vertex x="1.63835625" y="2.203196875"/>
-<vertex x="1.58563125" y="2.205440625"/>
-<vertex x="0.581315625" y="2.205440625"/>
-<vertex x="0.52850625" y="2.20420625"/>
-<vertex x="0.478903125" y="2.186971875"/>
-<vertex x="0.43891875" y="2.152896875"/>
-<vertex x="0.413846875" y="2.106734375"/>
-<vertex x="0.223559375" y="1.501646875"/>
-<vertex x="0.083021875" y="1.04715"/>
-</polygon>
-<polygon width="0.1" layer="21">
-<vertex x="-0.8082125" y="0.2373125"/>
-<vertex x="-1.547325" y="0.2373125"/>
-<vertex x="-1.594415625" y="0.23281875"/>
-<vertex x="-1.432275" y="-0.43406875"/>
-<vertex x="-1.291671875" y="-0.997521875"/>
-<vertex x="-1.108128125" y="-1.713478125"/>
-<vertex x="-0.986490625" y="-2.172775"/>
-<vertex x="-0.96133125" y="-2.21880625"/>
-<vertex x="-0.921178125" y="-2.252609375"/>
-<vertex x="-0.87165625" y="-2.270034375"/>
-<vertex x="-0.818928125" y="-2.271390625"/>
-<vertex x="-0.290990625" y="-2.271390625"/>
-<vertex x="-0.238734375" y="-2.266053125"/>
-<vertex x="-0.191678125" y="-2.242840625"/>
-<vertex x="-0.15616875" y="-2.204203125"/>
-<vertex x="-0.13626875" y="-2.155528125"/>
-<vertex x="0.015725" y="-1.649946875"/>
-<vertex x="0.222196875" y="-0.940265625"/>
-<vertex x="0.3792" y="-0.381165625"/>
-<vertex x="0.544925" y="0.23029375"/>
-<vertex x="0.501228125" y="0.237284375"/>
-<vertex x="-0.13229375" y="0.237284375"/>
-<vertex x="-0.1675875" y="0.2139375"/>
-<vertex x="-0.26938125" y="-0.14131875"/>
-<vertex x="-0.3666125" y="-0.49785"/>
-<vertex x="-0.443334375" y="-0.80516875"/>
-<vertex x="-0.477790625" y="-0.959753125"/>
-<vertex x="-0.4972875" y="-1.063521875"/>
-<vertex x="-0.510859375" y="-1.048340625"/>
-<vertex x="-0.5630875" y="-0.7896"/>
-<vertex x="-0.643878125" y="-0.4289875"/>
-<vertex x="-0.74240625" y="-0.018296875"/>
-<vertex x="-0.780403125" y="0.1354625"/>
-</polygon>
-<polygon width="0.1" layer="21">
-<vertex x="-2.57308125" y="2.2065125"/>
-<vertex x="-2.62478125" y="2.1971125"/>
-<vertex x="-2.669490625" y="2.16956875"/>
-<vertex x="-2.70151875" y="2.127921875"/>
-<vertex x="-2.716415625" y="2.077546875"/>
-<vertex x="-2.71725625" y="0.279915625"/>
-<vertex x="-2.706878125" y="0.237421875"/>
-<vertex x="-1.91379375" y="0.237421875"/>
-<vertex x="-1.8877125" y="0.2638"/>
-<vertex x="-1.8969875" y="0.686675"/>
-<vertex x="-1.906834375" y="1.003753125"/>
-<vertex x="-1.923134375" y="1.373496875"/>
-<vertex x="-1.93643125" y="1.584565625"/>
-<vertex x="-1.897465625" y="1.57491875"/>
-<vertex x="-1.854253125" y="1.367890625"/>
-<vertex x="-1.77459375" y="1.0064625"/>
-<vertex x="-1.606715625" y="0.28554375"/>
-<vertex x="-1.591865625" y="0.237375"/>
-<vertex x="-0.85165625" y="0.237375"/>
-<vertex x="-0.81018125" y="0.246253125"/>
-<vertex x="-0.902184375" y="0.6047375"/>
-<vertex x="-1.010809375" y="1.01353125"/>
-<vertex x="-1.080365625" y="1.268575"/>
-<vertex x="-1.195078125" y="1.6757"/>
-<vertex x="-1.3144875" y="2.081471875"/>
-<vertex x="-1.332384375" y="2.131084375"/>
-<vertex x="-1.365171875" y="2.17215625"/>
-<vertex x="-1.410778125" y="2.19831875"/>
-<vertex x="-1.462765625" y="2.205984375"/>
 </polygon>
 </package>
 </packages>
@@ -4845,7 +4841,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="DESIGNER" value="" x="19.05" y="-11.43" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="REV" value="" x="19.05" y="-11.43" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="J1" library="SparkFun-MicroMod-Function" package="M.2-CARD-E-22_FUNCTION_STANDARD" value="MICROMOD_STANDARD" x="-0.0118" y="19.016" smashed="yes" rot="R270"/>
+<element name="J1" library="SparkFun-MicroMod" package="M.2-CARD-E-22_FUNCTION_STANDARD" value="MICROMOD_FUNCTION_STANDARD" x="-0.0118" y="19.016" smashed="yes" rot="R270"/>
 <element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="55.9054" y="36.5252" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.9054" y="35.7632" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="55.9054" y="17.4752" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
